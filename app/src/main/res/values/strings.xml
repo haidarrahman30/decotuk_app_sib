@@ -15,4 +15,12 @@
     <string name="home_tv_cardview1">Deteksi Covid-19 dengan Rekaman Batuk</string>
     <string name="home_tv_cardview2">Pantau Riwayat Deteksi Covid-19 Anda</string>
     <string name="home_tv_cardview3">Pantau Angka Kasus Covid-19 Terkini</string>
+    <string name="tv_title_history">Riwayat</string>
+    <string name="test_date">08 April 2021</string>
+    <string name="test_result">Negatif</string>
+    <string name="tv_title_record">Rekam Suara Batuk</string>
+    <string name="tv_title_profile">Profil</string>
+    <string name="username">Username</string>
+    <string name="email">username@email.example</string>
+    <string name="record_time">00:00:06</string>
 </resources>
