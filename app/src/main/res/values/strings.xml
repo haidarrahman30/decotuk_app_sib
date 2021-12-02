@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">decotuk_app_capstone</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_history">Riwayat</string>
+    <string name="title_record">Rekam</string>
+    <string name="profile">Profil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_profile">Profil</string>
 </resources>

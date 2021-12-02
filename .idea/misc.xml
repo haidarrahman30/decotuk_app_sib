@@ -4,6 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/KULIAH/semester 7/Studi Indpeden/Decotuk/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.37962962962962965" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/activity_main.xml" value="0.18110435663627153" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/activity_main2.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_dashboard.xml" value="0.18110435663627153" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_home.xml" value="0.18110435663627153" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_notifications.xml" value="0.18110435663627153" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_profile.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/menu/bottom_nav_menu.xml" value="0.337037037037037" />
       </map>
     </option>
   </component>
