@@ -1,5 +1,6 @@
 package com.example.decotuk_app_capstone
 
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
@@ -17,6 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.light_green)))
 
         val navView: BottomNavigationView = binding.navView
 
