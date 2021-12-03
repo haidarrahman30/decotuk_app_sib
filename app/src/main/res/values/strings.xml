@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">decotuk_app_capstone</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_history">Riwayat</string>
+    <string name="title_record">Rekam</string>
+    <string name="profile">Profil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_profile">Profil</string>
+    <string name="discover">Jelajahi</string>
+    <string name="home_text_cardview1">Detaksi Covid-19 Dengan Decotuk</string>
+    <string name="home_tv_subtitle">Layanan Aplikasi Decotuk</string>
+    <string name="home_tv_cardview1">Deteksi Covid-19 dengan Rekaman Batuk</string>
+    <string name="home_tv_cardview2">Pantau Riwayat Deteksi Covid-19 Anda</string>
+    <string name="home_tv_cardview3">Pantau Angka Kasus Covid-19 Terkini</string>
+    <string name="tv_title_history">Riwayat</string>
+    <string name="test_date">08 April 2021</string>
+    <string name="test_result">Negatif</string>
+    <string name="tv_title_record">Rekam Suara Batuk</string>
+    <string name="tv_title_profile">Profil</string>
+    <string name="username">Username</string>
+    <string name="email">username@email.example</string>
+    <string name="record_time">00:00:06</string>
 </resources>
