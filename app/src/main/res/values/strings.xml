@@ -23,4 +23,14 @@
     <string name="username">Username</string>
     <string name="email">username@email.example</string>
     <string name="record_time">00:00:06</string>
+    <string name="login_title">Masuk</string>
+    <string name="login_capt">Silahkan Masukkan Email dan Kata Sandi Anda</string>
+    <string name="signup_title_capt">Silahkan Masukkan Informasi Anda</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="email_title">Email</string>
+    <string name="pass_title">Kata Sandi</string>
+    <string name="pass_forger">Lupa Kata Sandi?</string>
+    <string name="auth_capt">Atau Masuk Dengan</string>
+    <string name="signup_capt">Belum Punya Akun? <b>Daftar Akun</b></string>
+    <string name="signup_capt_secc">Sudah Punya Akun? <b>Masuk</b></string>
 </resources>

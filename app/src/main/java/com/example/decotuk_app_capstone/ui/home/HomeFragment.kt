@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.decotuk_app_capstone.R
 import com.example.decotuk_app_capstone.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {

@@ -9,6 +9,8 @@ import android.widget.TextView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.decotuk_app_capstone.R
+import com.example.decotuk_app_capstone.data.preferences.PreferenceRepository
+import com.example.decotuk_app_capstone.data.preferences.UserPreference
 import com.example.decotuk_app_capstone.databinding.FragmentHomeBinding
 import com.example.decotuk_app_capstone.databinding.FragmentProfileBinding
 import com.example.decotuk_app_capstone.ui.home.HomeViewModel
@@ -27,6 +29,7 @@ class ProfileFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         profileViewModel =
             ViewModelProvider(this).get(ProfileViewModel::class.java)
 
@@ -34,6 +37,10 @@ class ProfileFragment : Fragment() {
         val root: View = binding.root
 
         return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 
     override fun onDestroyView() {
