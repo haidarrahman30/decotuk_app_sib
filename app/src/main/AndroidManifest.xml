@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.decotuk_app_capstone">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
-    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Decotuk_app_capstone">
+        <activity
+            android:name=".ui.onboarding.OnBoardingTigaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.onboarding.OnBoardingDuaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.onboarding.OnBoardingSatuActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.auth.signup.SignUpActivity"
             android:exported="false" />
