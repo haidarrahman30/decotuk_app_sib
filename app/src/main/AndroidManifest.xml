@@ -16,28 +16,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Decotuk_app_capstone">
         <activity
-            android:name=".ui.onboarding.OnBoardingTigaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.onboarding.OnBoardingDuaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.onboarding.OnBoardingSatuActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.auth.signup.SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.auth.login.LoginActivity"
+            android:name=".ui.SpashScreenActivity"
+            android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.onboarding.OnBoardingTigaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar" />
+        <activity
+            android:name=".ui.onboarding.OnBoardingDuaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar" />
+        <activity
+            android:name=".ui.onboarding.OnBoardingSatuActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar" />
+        <activity
+            android:name=".ui.auth.signup.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.login.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar">
         </activity>
 
         <meta-data

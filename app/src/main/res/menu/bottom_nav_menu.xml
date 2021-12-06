@@ -3,13 +3,13 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_green_24dp"
+        android:icon="@drawable/ic_home"
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/navigation_history"
-        android:icon="@drawable/ic_history_green_24"
-        android:title="@string/title_history" />
+        android:id="@+id/navigation_covid_stat"
+        android:icon="@drawable/ic_masks"
+        android:title="@string/covid_19" />
 
     <item
         android:id="@+id/navigation_record"
@@ -17,8 +17,13 @@
         android:title="@string/title_record" />
 
     <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_history_green_24"
+        android:title="@string/title_history" />
+
+    <item
         android:id="@+id/navigation_profile"
-        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:icon="@drawable/ic_account_circle"
         android:title="@string/profile" />
 
 </menu>
