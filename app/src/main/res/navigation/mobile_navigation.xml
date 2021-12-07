@@ -12,16 +12,22 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_history"
-        android:name="com.example.decotuk_app_capstone.ui.history.HistoryFragment"
-        android:label="@string/title_history"
-        tools:layout="@layout/fragment_history" />
+        android:id="@+id/navigation_covid_stat"
+        android:name="com.example.decotuk_app_capstone.ui.covid.CovidStatFragment"
+        android:label="@string/covid_19"
+        tools:layout="@layout/fragment_covid_stat" />
 
     <fragment
         android:id="@+id/navigation_record"
         android:name="com.example.decotuk_app_capstone.ui.record.RecordFragment"
         android:label="@string/title_record"
         tools:layout="@layout/fragment_record" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.decotuk_app_capstone.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/navigation_profile"

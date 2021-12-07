@@ -32,8 +32,8 @@
     <ImageButton
         android:id="@+id/bt_record"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/dark_green"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_green"
         android:src="@drawable/ic_mic_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

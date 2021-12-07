@@ -33,4 +33,6 @@
     <string name="auth_capt">Atau Masuk Dengan</string>
     <string name="signup_capt">Belum Punya Akun? <b>Daftar Akun</b></string>
     <string name="signup_capt_secc">Sudah Punya Akun? <b>Masuk</b></string>
+    <string name="onboarding_next_btn">Selanjutnya</string>
+    <string name="covid_19">Covid-19</string>
 </resources>

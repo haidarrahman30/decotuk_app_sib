@@ -14,4 +14,17 @@
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/light_green</item>
     </style>
+
+    <style name="Theme.Decotuk_app_capstone.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_logo</item>
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/light_green</item>
+    </style>
 </resources>
