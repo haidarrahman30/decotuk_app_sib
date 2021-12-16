@@ -11,4 +11,9 @@
     <color name="light_green">#DDF1F0</color>
     <color name="super_light_green">#E9F7FA</color>
     <color name="title_capt">#727F8D</color>
+    <color name="yellow">#F9C131</color>
+    <color name="red">#C60404</color>
+    <color name="green">#4CD97B</color>
+    <color name="light_green1">#8AC4D0</color>
+    <color name="light_yellow1">#FBEEAC</color>
 </resources>

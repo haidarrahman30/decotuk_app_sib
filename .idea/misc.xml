@@ -22,6 +22,9 @@
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/activity_on_boarding_satu.xml" value="0.3723958333333333" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/activity_on_boarding_tiga.xml" value="0.3723958333333333" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/activity_sign_up.xml" value="0.3723958333333333" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/activity_spash_screen.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/content_covid19_stat.xml" value="0.3663949275362319" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/content_detail_covid_stat.xml" value="0.3663949275362319" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_covid_stat.xml" value="0.3723958333333333" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_dashboard.xml" value="0.18110435663627153" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_history.xml" value="0.3723958333333333" />
@@ -30,6 +33,7 @@
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/fragment_record.xml" value="0.3723958333333333" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/item_history.xml" value="0.3723958333333333" />
+        <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/layout/items_covid_province.xml" value="0.3663949275362319" />
         <entry key="..\:/Users/katon/AndroidStudioProjects/decotuk_app_sib/app/src/main/res/menu/bottom_nav_menu.xml" value="0.337037037037037" />
       </map>
     </option>

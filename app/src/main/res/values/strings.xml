@@ -34,5 +34,14 @@
     <string name="signup_capt">Belum Punya Akun? <b>Daftar Akun</b></string>
     <string name="signup_capt_secc">Sudah Punya Akun? <b>Masuk</b></string>
     <string name="onboarding_next_btn">Selanjutnya</string>
-    <string name="covid_19">Covid-19</string>
+    <string name="covid_19">Kasus Covid-19 di Indonesia</string>
+    <string name="recovery">Sembuh</string>
+    <string name="data_value">4,532</string>
+    <string name="confirmed">Positif</string>
+    <string name="death">Meninggal</string>
+    <string name="today_case">Kasus hari ini, %s</string>
+    <string name="total_case">Total Kasus</string>
+    <string name="total_recovery">Total Sembuh</string>
+    <string name="province">Provinsi</string>
+    <string name="hospitalization">Dirawat</string>
 </resources>
