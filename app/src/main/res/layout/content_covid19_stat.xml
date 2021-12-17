@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="@string/today_case"
+        tools:text="@string/today_case"
         android:textAlignment="center"
         android:textColor="@color/dark_green"
         android:textSize="16sp"
@@ -366,10 +366,10 @@
                 android:maxLines="2"
                 android:textColor="@color/dark_green"
                 android:textSize="12sp"
+                android:text="@string/province"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:text="@string/province" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline2"

@@ -30,7 +30,7 @@ class RemoteDataSource {
     }
 
     suspend fun getAllCovidProvinces(callback: LoadCovidProvinces) {
-        ApiConfig.getApiService().getCovidProvince().await().covidProvinceResponse.let {
+        ApiConfig.getApiService().getCovidProvince().await().let {
             callback.onAllCovidProvincesReceived(it)
         }
     }
