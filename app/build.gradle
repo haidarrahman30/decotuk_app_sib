@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.decotuk_app_capstone"
-        minSdk 21
+        minSdk 23
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -32,6 +32,11 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        mlModelBinding true
+    }
+
+    androidResources {
+        noCompress 'tflite'
     }
 }
 
@@ -42,6 +47,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
@@ -67,4 +73,20 @@ dependencies {
     //firebase
     implementation platform('com.google.firebase:firebase-bom:29.0.1')
     implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+
+    //waveView
+    implementation 'com.gauravk.audiovisualizer:audiovisualizer:0.9.2'
+
+    //tflite
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
+
+    // Import the Audio Task Library dependency (NNAPI is included)
+    implementation 'org.tensorflow:tensorflow-lite-task-audio:0.3.0'
+    // Import the GPU delegate plugin Library for GPU inference
+    implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.3.0'
+
+    //image-picker
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
 }

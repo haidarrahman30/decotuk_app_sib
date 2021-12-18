@@ -22,6 +22,7 @@ class LoginActivity : AppCompatActivity() {
     private val binding get() = _binding!!
 
     private lateinit var database : FirebaseDatabase
+    private lateinit var pref : PreferenceRepository
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,8 +30,14 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         database = Firebase.database
+        pref = PreferenceRepository.getInstance(UserPreference(this))
 
         actionClick()
+
+        if (pref.isUserLogin()){
+            finish()
+            startActivity(Intent(this, MainActivity::class.java))
+        }
 
     }
 
@@ -73,9 +80,10 @@ class LoginActivity : AppCompatActivity() {
                 if (user != null){
                     if (email == user.email) {
                         if(password == user.password){
+                            pref.loginUser("UID", user.id.toString())
                             Toast.makeText(this, "Login berhasil", Toast.LENGTH_SHORT).show()
 
-                            finishAffinity()
+                            finish()
                             startActivity(Intent(this, MainActivity::class.java))
                         } else {
                             Toast.makeText(this, "Email atau Password yang anda masukan salah", Toast.LENGTH_SHORT).show()

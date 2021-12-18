@@ -76,7 +76,8 @@ class SignUpActivity : AppCompatActivity() {
                     id = it.result?.user?.uid,
                     nama = nama,
                     email = email,
-                    password = repassword
+                    password = repassword,
+                    image = "",
                 )
 
                 database.getReference(USER).child("${it.result?.user?.uid}").setValue(newUser)

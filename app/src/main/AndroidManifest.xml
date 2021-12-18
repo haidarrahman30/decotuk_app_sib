@@ -16,15 +16,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Decotuk_app_capstone">
         <activity
+            android:name=".ui.profile.laporan.LaporanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.edit.EditProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.SpashScreenActivity"
-            android:theme="@style/SplashTheme"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.record.NonCovidActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar" />
+        <activity
+            android:name=".ui.record.CovidPositifActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar" />
         <activity
             android:name=".ui.onboarding.OnBoardingTigaActivity"
             android:exported="false"
@@ -47,8 +61,7 @@
         <activity
             android:name=".ui.auth.login.LoginActivity"
             android:exported="true"
-            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.Decotuk_app_capstone.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"
