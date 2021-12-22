@@ -46,5 +46,7 @@
     <string name="hospitalization">Dirawat</string>
     <string name="negativ">Negatif Covid-19</string>
     <string name="positif_capt">Dari hasil perekaman suara batuk yang sudah anda lakukan, anda berpotensi terindikasi Covid-19</string>
-    <string name="negatif_capt">Dari hasil perekaman suara batuk yang sudah anda lakukan, anda berpotensi terindikasi negatif Covid-19</string>
+    <string name="negatif_capt">Dari hasil perekaman suara batuk yang sudah anda lakukan, anda berpotensi negatif Covid-19</string>
+    <string name="negatif_capt2">Sistem kami menggunakan pendekatan machine learning untuk memproses suara rekaman batuk mu dan menentukan hasilnya berdasarkan sample data yang kami punya, hasil ini bersifat prediktif yaa dan tidak dapat digunakan sebagai penentu mutlak kondisi covid-19 kamu</string>
+    <string name="record_instruction">Tekan tombol rekam, dan coba lah untuk melakukan batuk paksa ,sistem kami akan memproses suara batuk mu dan menentukan apakah kamu berpotensi terindikasi positif covid-19 atau tidak</string>
 </resources>

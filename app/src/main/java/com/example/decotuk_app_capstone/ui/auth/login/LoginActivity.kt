@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.core.view.isInvisible
+import androidx.core.view.isVisible
 import com.example.decotuk_app_capstone.MainActivity
 import com.example.decotuk_app_capstone.data.preferences.PreferenceRepository
 import com.example.decotuk_app_capstone.data.preferences.UserPreference
@@ -64,6 +66,7 @@ class LoginActivity : AppCompatActivity() {
                 binding.editTextTextPassword.requestFocus()
             }
             else -> {
+                showProgressBar()
                 login(email, password)
 
             }
@@ -91,7 +94,30 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
             }
+            hideProgressBar()
         }
+    }
+
+    private fun showProgressBar() {
+        binding.progressBar.isVisible = true
+        binding.textView9.isInvisible = true
+        binding.editTextTextEmailAddress.isInvisible = true
+        binding.textView10.isInvisible = true
+        binding.textView11.isInvisible = true
+        binding.editTextTextPassword.isInvisible = true
+        binding.button2.isInvisible = true
+        binding.textView13.isInvisible = true
+    }
+
+    private fun hideProgressBar() {
+        binding.progressBar.isInvisible = true
+        binding.textView9.isVisible = true
+        binding.editTextTextEmailAddress.isVisible = true
+        binding.textView10.isVisible = true
+        binding.textView11.isVisible = true
+        binding.editTextTextPassword.isVisible = true
+        binding.button2.isVisible = true
+        binding.textView13.isVisible = true
     }
 
     override fun onDestroy() {

@@ -33,7 +33,6 @@ class CovidStatFragment : Fragment() {
         if (activity != null) {
             val factory = ViewModelFactory.getInstance(requireActivity())
             val viewModel = ViewModelProvider(this, factory)[CovidStatViewModel::class.java]
-            val covidStatProvinceAdapter = CovidStatProvinceAdapter()
 
             //get covid daily
             showProgressBar()
@@ -47,19 +46,6 @@ class CovidStatFragment : Fragment() {
                 populateCovidTotal(it)
             })
 
-            //get list of covid provinces case
-            //showProgressBar()
-            viewModel.getCovidProvinces().observe(viewLifecycleOwner, {
-                //hideProgressBar()
-                covidStatProvinceAdapter.setCovidCases(it)
-                covidStatProvinceAdapter.notifyDataSetChanged()
-            })
-
-            with(contentCovidBinding.rvProvinceCase) {
-                layoutManager = LinearLayoutManager(context)
-                setHasFixedSize(true)
-                adapter = covidStatProvinceAdapter
-            }
         }
     }
 
