@@ -6,5 +6,4 @@ data class CovidCases(
     var recovery: Int,
     var death: Int,
     var date: String,
-    var province: String
 )

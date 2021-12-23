@@ -10,6 +10,4 @@ class CovidStatViewModel (private val covidCasesRepository: CovidCasesRepository
     fun getCovidTotal() : LiveData<CovidCases> = covidCasesRepository.getCovidTotal()
 
     fun getCovidDaily() : LiveData<CovidCases> = covidCasesRepository.getCovidDaily()
-
-    fun getCovidProvinces() : LiveData<List<CovidCases>> = covidCasesRepository.getAllCovidProvinces()
 }

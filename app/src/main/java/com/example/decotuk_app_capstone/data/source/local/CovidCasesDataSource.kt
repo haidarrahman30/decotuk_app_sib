@@ -7,6 +7,4 @@ interface CovidCasesDataSource {
     fun getCovidTotal() : LiveData<CovidCases>
 
     fun getCovidDaily() : LiveData<CovidCases>
-
-    fun getAllCovidProvinces() : LiveData<List<CovidCases>>
 }

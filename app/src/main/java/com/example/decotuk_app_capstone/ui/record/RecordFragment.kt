@@ -234,6 +234,7 @@ class RecordFragment : Fragment(), Timer.OnTimerTickListener {
             recorder = null
             binding.btRecord.setImageResource(R.drawable.ic_mic_24)
             binding.btnSave.visibility = View.VISIBLE
+            binding.textView25.visibility = View.INVISIBLE
 
             binding.btnSave.setOnClickListener {
                 saveToFirebase(fileUri)

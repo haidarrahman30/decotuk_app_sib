@@ -8,6 +8,7 @@ import com.example.decotuk_app_capstone.data.preferences.PreferenceRepository
 import com.example.decotuk_app_capstone.data.preferences.UserPreference
 import com.example.decotuk_app_capstone.data.source.local.entity.User
 import com.example.decotuk_app_capstone.databinding.ActivityEditProfileBinding
+import com.example.decotuk_app_capstone.util.EspressoIdlingResource
 import com.example.decotuk_app_capstone.util.USER
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ktx.database
@@ -82,6 +83,7 @@ class EditProfileActivity : AppCompatActivity() {
     }
 
     private fun showProfile() {
+        EspressoIdlingResource.increment()
         val myyRef = database.getReference(USER).child(uid)
         myyRef.get().addOnSuccessListener { snapshot ->
             if (snapshot.exists()){
@@ -93,6 +95,7 @@ class EditProfileActivity : AppCompatActivity() {
                         edtName.setText(user.nama)
                         edtPassword.setText(user.password)
                     }
+                    EspressoIdlingResource.decrement()
                 }
             }
 
